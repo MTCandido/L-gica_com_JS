@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Entrada
+var preco, porcentagem, nome, m
+nome=prompt('informe o nome do produto ')
+preco=prompt('Informe o preço desse produto ')
+porcentagem=prompt('Informe o desconto ')
+
+//Processamento
+m = preco - (preco * (porcentagem/100))
+
+//Saida
+document.write('<p>o preço de ', nome, 'é equivalente ', preco,'</p>')
+document.write('o preço com desconto é:', m,'</p>')
+console.log('<p>o preço de ', nome, 'é equivalente ', preco,'</p>')
+console.log('o preço com desconto é:', m,'</p>')
+
+
+
+
+    </script>
+</body>
+</html>

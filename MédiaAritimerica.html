@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Aritimerica</title>
+</head>
+<body>
+    <script>
+//Declaração de variaveis/constantes: var | let | const
+var nome, nota1, nota2, nota3, nota4, media;
+
+//Entradas
+//Toda leitura de prompt é do tipo de string(texto) 
+nome=prompt('informe o nome do aluno: ')
+nota1=parseFloat(prompt('Informe a 1º nota: '))
+nota2=parseFloat(prompt('Informe a 2º nota: '))
+nota3=parseFloat(prompt('Informe a 3º nota: '))
+nota4=parseFloat(prompt('Informe a 4º nota: '))
+
+//processamento
+//Necessario conversão de String para Float
+media = (nota1+nota2+nota3+nota4) /4
+
+//Saída
+document.write('a media de ', nome, 'é equivalente ', media)
+console.log('a media de ', nome, 'é equivalente ', media)
+
+    </script>
+</body>
+</html>
