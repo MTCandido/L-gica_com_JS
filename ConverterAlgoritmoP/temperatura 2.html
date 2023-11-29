@@ -12,13 +12,13 @@ temperatura, kelvin, fahrenheit
 temperatura = parseFloat(prompt('Informe a temperatura'))
 kelvin = temperatura + 273.15
 fahrenheit = temperatura * (9/5) + 32
-if (temperatura <= 10){
+if (temperatura <= 0 && temperatura >= -9){
 console.log ('A temperatura esta fria')
 document.write ('A temperatura esta fria')      
 }
 else{ 
 }
-if (temperatura <= -10){
+if (temperatura <= -10 && temperatura >= -19){
 console.log ('A temperatura esta muito fria')
 document.write ('A temperatura esta muito fria')      
 }
@@ -30,13 +30,13 @@ document.write ('A temperatura esta extremamente fria')
 }
 else{ 
 }    
-if (temperatura >= 40){
+if (temperatura >= 40 && temperatura <= 50){
 console.log ('A temperatura esta quente')
 document.write ('A temperatura esta quente')      
 }
 else{ 
 }
-if (temperatura >= 50){
+if (temperatura >= 50 && temperatura <=59){
 console.log ('A temperatura muito quente')
 document.write ('A temperatura muito quente')      
 }
@@ -54,7 +54,7 @@ document.write ('A temperatura esta fresca')
 }
 else{ 
 }
-if (temperatura >=20 && temperatura >=25 ){
+if (temperatura >=20 && temperatura <=25 ){
 console.log ('A temperatura esta boa')
 document.write ('A temperatura esta boa')      
 }
